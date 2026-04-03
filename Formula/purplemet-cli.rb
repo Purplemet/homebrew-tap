@@ -1,26 +1,26 @@
 class PurplemetCli < Formula
   desc "CLI for Purplemet web application security analysis"
   homepage "https://purplemet.com"
-  version "1.0.4"
+  version "1.0.5"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-url "https://github.com/purplemet/cli/releases/download/v1.0.4/purplemet-cli-darwin-arm64"
-sha256 "56882a25e243403ebcb998aa575225d3a2ab4cea19f4f7a13b0ddf8e3deb6210"
+url "https://github.com/purplemet/cli/releases/download/v1.0.5/purplemet-cli-darwin-arm64"
+sha256 "633397eed6fccc1dc9217a1b91a98529147cc8f806950e36a34458d1afcc3491"
     else
-url "https://github.com/purplemet/cli/releases/download/v1.0.4/purplemet-cli-darwin-amd64"
-sha256 "670ddfa3f1cf338a998373555f393cc782b512921fa23a37f19bd9a3f194c9f1"
+url "https://github.com/purplemet/cli/releases/download/v1.0.5/purplemet-cli-darwin-amd64"
+sha256 "1ec719107bee2c27dd44a0a5ccc99cd22404181a0dec1eade6d4380e8a987fbf"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-url "https://github.com/purplemet/cli/releases/download/v1.0.4/purplemet-cli-linux-arm64"
-sha256 "cc9a5c7a451480124f9b7cd67bf323d7708483ae586b1bdbd3bf126209adc686"
+url "https://github.com/purplemet/cli/releases/download/v1.0.5/purplemet-cli-linux-arm64"
+sha256 "73da04c338b75b6abf9ef609141f9ef643d1ce7f17e92decf6700d601c3a35aa"
     else
-url "https://github.com/purplemet/cli/releases/download/v1.0.4/purplemet-cli-linux-amd64"
-sha256 "bb738fcbf0934c6a0d2785e27d35eef5cc08ed01708c5296cbc4226fdc72cfa5"
+url "https://github.com/purplemet/cli/releases/download/v1.0.5/purplemet-cli-linux-amd64"
+sha256 "d65758d90664a79eed9b5b1f3ec57f92e01105a892655cb6ba0cf087581a0100"
     end
   end
 
